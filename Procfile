@@ -1,1 +1,1 @@
-worker: node FRP.js
+worker: node bot.js
