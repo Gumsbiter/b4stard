@@ -18,5 +18,11 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', msg=>{
+if(msg.content ===  "Hello Felix"){
+    msg.reply('Hello. What do you want?');
+}
+})
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
