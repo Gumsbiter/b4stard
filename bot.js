@@ -16,7 +16,7 @@ client.on('message', msg=>{
 if(msg.content ===  "Hello Felix"){
     msg.reply('Hello. What do you want?');
 }
-})
+});
 
 client.on('message', msg=>{
     if(msg.content ===  "HELLO FELIX"){
